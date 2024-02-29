@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "todo crud server",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "serve": "nodemon index.js"
+  },
+  "keywords": [
+    "todo",
+    "js",
+    "express"
+  ],
+  "author": "mokhtar soumair",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
